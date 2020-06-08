@@ -14,7 +14,9 @@
     </bean>
 
     <bean id="musicPlayer"
-          class="org.sevod.springcourse.MusicPlayer">
+          class="org.sevod.springcourse.MusicPlayer"
+          scope="prototype">
+
         <property name="music" ref="musicBean"/>
 
         <property name="name" value="${musicPlayer.name}"/>
