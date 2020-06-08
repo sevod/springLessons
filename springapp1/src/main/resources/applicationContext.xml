@@ -13,6 +13,14 @@
           class="org.sevod.springcourse.ClassicalMusic">
     </bean>
 
+    <bean id="musicBean2"
+          class="org.sevod.springcourse.RockMusic">
+    </bean>
+
+    <bean id="musicBean3"
+          class="org.sevod.springcourse.JazzMusic">
+    </bean>
+
     <bean id="musicPlayer"
           class="org.sevod.springcourse.MusicPlayer"
           scope="prototype">
@@ -21,5 +29,8 @@
 
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
+
+
     </bean>
+
 </beans>

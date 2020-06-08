@@ -14,12 +14,7 @@ public class TestSpring {
 
         //System.out.println(music.getSong());
 
-        boolean comparison = firstMusicPlayer == secondMusicPlayer;
 
-        System.out.println(comparison);
-
-        System.out.println(firstMusicPlayer);
-        System.out.println(secondMusicPlayer);
 
         firstMusicPlayer.setVolume(10);
         System.out.println(firstMusicPlayer.getVolume());
