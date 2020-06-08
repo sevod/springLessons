@@ -7,9 +7,8 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="testBean"
-          class="org.sevod.springcourse.TestBean">
-        <constructor-arg value="Sevod form Application context"/>
+    <bean id="musicBean"
+          class="org.sevod.springcourse.JazzMusic">
     </bean>
 
 </beans>
