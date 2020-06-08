@@ -3,7 +3,7 @@ package org.sevod.springcourse;
 public class MusicPlayer {
     private Music music;
 
-    //IoC
+    //IoC (Inversion of Control)
     public  MusicPlayer(Music music) {
         this.music = music;
     }
