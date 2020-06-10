@@ -2,7 +2,6 @@ package org.sevod.springcourse;
 
 import org.springframework.stereotype.Component;
 
-@Component
 public class ClassicalMusic implements Music {
     public void doMyInit(){
         System.out.println("Doing my initialization");
